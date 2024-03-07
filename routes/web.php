@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// sxc
+
 Route::get('/loginform', 'Testingcontroller@login');
 Route::get('/testingform', 'Testingcontroller@index');
 Route::post('/formstore', 'Testingcontroller@formstore');
